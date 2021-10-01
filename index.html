@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@500&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./files/Eli Gabovitch Resume.pdf" download="Eli Gabovitch Resume">Eli Gabovitch</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active aria-current" aria-current="page" href="#aboutMe">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active aria-current" href="#portfolioSection">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active aria-current" href="#resumeSection">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active aria-current" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Start Landing Page section-->
+  <div class="landingPage" id="landingPage">
+    <img src="./files/landingPageBackground.jpg" class="img-fluid" alt="...">
+  
+
+
+<div class="landingPageCaption text-center">
+  <h1>Eli Gabovitch</h1>
+  <h3>Web Developer</h3><br>
+
+  <div class="logos">
+  <img src="./files/htmlLogo.png" alt="HTML" id="htmlLogo">
+  <img src="./files/cssLogo.png" alt="CSS" id="cssLogo">
+  <img src="./files/javascriptLogo.png" alt="JavaScript" id="javaLogo">
+  </div> 
+</div> 
+</div>
+
+<!-- About me begins -->
+  <div id="aboutMe" class="offset">
+
+    <div class="aboutMeContainer text-center">
+      <div class="col-12 narrow text-center">
+        <h1 class="title">About Me</h1>
+        <div class="title-underline"></div>
+</div>
+      <div class="para" text-center>
+      <br>
+      <br>
+      <br>
+      <p id="para">Hi, I'm Eli Gabovitch. I am currently a student in the full-time Web Development course at Eleven Fifty Academy. I am passionate about technology and simplifying complex things in order to help others.I majored in finance at Indiana University because of my desire to learn about and grow within the business world. After college, I spent several years living in Shanghai, China. I taught myself fluent Chinese by learning how to use available resources to my advantage in order to gain new skills. I am seeking a career in web development in order to help others simplify and solve their issues as well as achieve their goals.</p>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- About me end -->
+
+<!-- Portfolio section begin -->
+            <section id="portfolioSection">
+
+                <h2>Portfolio</h2>
+                <div class="portfolio-underline"></div><br>
+
+                <div class="thumbnails">
+
+                <a target="_blank" href="https://elirgabovitch.github.io/staticlayout/">
+                  <img src="./files/staticLayoutThumbnail.png" 
+                  alt="staticLayout" width="20%" id="staticLayout"></a>
+                  
+                 <a target="_blank" href="https://elirgabovitch.github.io/API1/">
+                  <img src="./files/api1Thumbnail.png" alt="api1" width="20%" id="api1"></a>
+                  
+
+                  <a target="_blank" href="https://codepen.io/elirgabovitch/pen/abwyopP">
+                    <img src="./files/cssCreatureThumbnail.png" alt="staticLayout" width="20%" id="cssCreature"></a>
+                  </div>
+            </section>
+<!-- Portfolio section end -->
+
+<!-- Resume Section Start -->
+            <section id="resumeSection">
+                <h2>Resume</h2>
+                <div class="resume-underline"></div><br>
+                
+                <div class="download">
+                  <a href="./files/Eli Gabovitch Resume.pdf" download="Eli Gabovitch Resume">
+                    <img src="./files/Eli Gabovitch Resume.jpg" alt="Eli Gabovitch Resume" width="20%" height="20%" id="download">
+                  </a>
+                </div>
+
+                <h3 id="click">Click my face to download my resume!</h3>
+            </section>
+<!-- Resume Section End -->
+
+            <!-- contact me form start -->
+
+  <div id="contact" class="contact">
+
+  <!--2nd Jumbo start-->
+  <div class="jumbotron">
+    <div class="col-12 narrow text-center">
+      <h1 style="font-size: 46px;" class="title">Contact Me</h1>
+      <div class="contact-underline"></div>
+    </div>
+
+  <!--contact form-->
+    <div id="contactForm">
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mrgrdpwb" method="post">
+       <fieldset id="fs-frm-inputs">
+          <br>
+          <br>
+          <input type="text" name="name" id="full-name" placeholder="Full Name" required="">
+          <br>
+          <br>
+          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
+          <br>
+          <br>
+          <textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit" id="submit">
+      </form>
+    </div>
+  </div>
+</div>
+<!-- contact me section end -->
+
+            <footer id="footer" class="footer gray-bg">
+
+              <div class="footerLinks">
+
+                <a target="_blank" href="https://github.com/elirgabovitch">
+                <img src="./files/githubLogo.png" 
+                  alt="Github logo" width="5%" id="githubLogo"></a>
+
+                  <a target="_blank" href="https://www.linkedin.com/in/eligabovitch/">
+                  <img src="./files/linkedinLogo.png" 
+                  alt="LinkedIn logo" width="5%" id="linkedinLogo"></a>
+              </div>
+                <div class="container text-center">&#169 Eli Gabovitch 2021</div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
