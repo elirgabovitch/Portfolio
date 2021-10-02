@@ -1,9 +1,12 @@
 html {
     width: 100%;
+    height: 100%;
 }
 
 body {
-    color: #d8e7e7;;
+    color: #d8e7e7;
+    height: 100%;
+    width: 100%;
     
 }
 
@@ -78,17 +81,21 @@ body {
 
 /*About Me CSS*/
  .aboutMeContainer {
-    background-color: #373757;
-    background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #1b7941, #1b7941 50%, #373757 50%);
-    background-size: 10px 10px;
+     background-color: #373757;
+     background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #1b7941, #1b7941 50%, #373757 50%);
+     background-size: 10px 10px;
      padding-top: 60px;
      padding-bottom: 100px;
+     position: relative;
  }
 
  .aboutMeContainer h1 {
      font-size: 40px;
      text-shadow: 2px 2px black;
      color: whitesmoke;
+     left: 42.5%;
+     bottom: 80%;
+     position: absolute;
  }
 
  .title-underline {
@@ -96,6 +103,9 @@ body {
     height: 5px;
     background-color: whitesmoke;
     margin: 0 auto;
+    left: 45%;
+    top: 20%;
+    position: absolute;
 }
 
 .aboutMeContainer p{
@@ -104,7 +114,7 @@ body {
     font-size: 110%;
     color:black;
     width: 75%;
-    margin: -5%;
+    margin: 0%;
     background-color:whitesmoke;
     border-style: dashed;
     padding: 7px;
@@ -113,25 +123,30 @@ body {
 /* Start Portfolio Section*/
 #portfolioSection{
         background-color: whitesmoke;
-        padding-top: 60px;
+        padding-top: 100px;
         padding-bottom: 100px;
+        position: relative;
      }
 
 #portfolioSection h2 {
     font-size: 40px;
     text-shadow: 2px 2px whitesmoke;
-    padding-left: 495px;
+    position: absolute;
+    left: 44.5%;
+    top: 8%;
     color: black;
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 .portfolio-underline {
-    width: 100px;
+    position: absolute;
+    width: 110px;
     height: 5px;
     background-color: black;
     margin: 0 auto;
+    left: 46%;
+    top: 22%;
 }
-
 .thumbnails {
   opacity: 1;
   display: flex;
@@ -172,14 +187,16 @@ body {
     background-color: #373757;
     background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #1b7941, #1b7941 50%, #373757 50%);
     background-size: 10px 10px;
-    padding-top: 40px;
+    padding-top: 90px;
     padding-bottom: 100px;
+    position: relative;
 }
 
 #resumeSection h2 {
-    position: relative;
+    position: absolute;
     font-size: 40px;
-    padding-left: 495px;
+    left: 43.5%;
+    top: 5%;
     color: whitesmoke;
     text-shadow: 2px 2px black;
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -188,8 +205,11 @@ body {
 .resume-underline {
     width: 100px;
     height: 5px;
+    left: 45.5%;
+    top: 14.5%;
     background-color: whitesmoke;
     margin: 0 auto;
+    position: absolute;
 }
 
 #download {
@@ -203,14 +223,12 @@ body {
 
 #click {
     font-size: 25px;
-    padding-left: 350px;
-    margin-top: 40px;
-    margin-bottom: -40px;
-    padding-bottom: -20px;
+    left: 31%;
+    bottom: 7%;
     color: whitesmoke;
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     text-shadow: 2px 2px black;
-    position: relative;
+    position: absolute;
 }
 
 /**Contact section*/
