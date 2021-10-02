@@ -105,6 +105,7 @@ body {
     margin: 0 auto;
     left: 45%;
     top: 20%;
+    display: block;
     position: absolute;
 }
 
@@ -132,6 +133,7 @@ body {
     font-size: 40px;
     text-shadow: 2px 2px whitesmoke;
     position: absolute;
+    display: block;
     left: 44.5%;
     top: 8%;
     color: black;
@@ -140,6 +142,7 @@ body {
 
 .portfolio-underline {
     position: absolute;
+    display: block;
     width: 110px;
     height: 5px;
     background-color: black;
@@ -194,6 +197,7 @@ body {
 
 #resumeSection h2 {
     position: absolute;
+    display: block;
     font-size: 40px;
     left: 43.5%;
     top: 5%;
@@ -205,6 +209,7 @@ body {
 .resume-underline {
     width: 100px;
     height: 5px;
+    display: block;
     left: 45.5%;
     top: 14.5%;
     background-color: whitesmoke;
